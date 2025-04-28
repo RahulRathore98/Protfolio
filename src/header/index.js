@@ -21,11 +21,11 @@ const Headermain = () => {
             {logotext}
           </Link> */}
           <div className="d-flex align-items-center">
-          
           <button className="menu__button  nav_ac" onClick={handleToggle}>
             {!isActive ? <VscClose /> : <VscGrabber />}
-            </button>
-            <Themetoggle />
+          </button>
+          <Themetoggle />
+          
           
           </div>
         </div>
@@ -36,16 +36,16 @@ const Headermain = () => {
               <div className="menu__container p-3">
                 <ul className="the_menu">
                   <li className="menu_item ">
-                  <Link  onClick={handleToggle} to="/" className="my-3 furi" style={{fontSize:"25px"}}>Home</Link>
+                  <Link  onClick={handleToggle} to="/" className="my-3" style={{fontSize:"25px"}}>Home</Link>
                   </li>
                   <li className="menu_item">
-                    <Link  onClick={handleToggle} to="/portfolio" className="my-3 furi" style={{fontSize:"25px"}}> Portfolio</Link>
+                    <Link  onClick={handleToggle} to="/portfolio" className="my-3" style={{fontSize:"25px"}}> Portfolio</Link>
                   </li>
                   <li className="menu_item">
-                  <Link onClick={handleToggle} to="/about" className="my-3 furi" style={{fontSize:"25px"}}>About</Link>
+                  <Link onClick={handleToggle} to="/about" className="my-3" style={{fontSize:"25px"}}>About</Link>
                   </li>
                   <li className="menu_item">
-                  <Link onClick={handleToggle} to="/contact" className="my-3 furi" style={{fontSize:"25px"}}> Contact</Link>
+                  <Link onClick={handleToggle} to="/contact" className="my-3" style={{fontSize:"25px"}}> Contact</Link>
                   </li>
                 </ul>
               </div>

@@ -17,7 +17,7 @@ const introdata = {
 
 const dataabout = {
     title: "About Me",
-    aboutme: "Hey! I am Rahul Rathore and I am passionate to my work and I have Ability to grab more things and make my Company proud",
+    aboutme: "Hey! I am Rahul Rathore and I am passionate to my work and I have Ability to grab more things.",
 
 };
 const worktimeline = [{

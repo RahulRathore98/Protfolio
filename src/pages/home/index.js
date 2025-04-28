@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 
 export const Home = () => {
   return (<>
- 
+
 
     <HelmetProvider>
       <section id="home" className="home">
@@ -57,21 +57,24 @@ export const Home = () => {
                       <div className="ring three"></div>
                     </div>
                   </Link>
-                  <Link to="">
-                    <div id="button_h" className="ac_btn btn"  onClick={() => window.open('https://calendly.com/rahul-remotebricks/30min', '_blank')}>
-                      Meeting
-                      <div className="ring one"></div>
-                      <div className="ring two"></div>
-                      <div className="ring three"></div>
-                    </div>
-                  </Link>
-                </div>
-              </div>
+
+                  <div id="button_h" className="ac_btn btn" onClick={() => window.open('https://calendly.com/rahul-remotebricks/30min', '_blank')}
+                  > Meeting
+                    <div className="ring one"></div>
+                    <div className="ring two"></div>
+                    <div className="ring three"></div>
+                  </div>
+             </div>
+
+
             </div>
+
           </div>
         </div>
-      </section>
-    </HelmetProvider>
-    </>
+
+      </div>
+    </section>
+  </HelmetProvider >
+  </>
   );
 };

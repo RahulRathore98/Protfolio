@@ -2,6 +2,7 @@ import React from "react";
 import "./style.css";
 import { Helmet, HelmetProvider } from "react-helmet-async";
 import { Container, Row, Col } from "react-bootstrap";
+import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaSass } from 'react-icons/fa';
 import {
   dataabout,
   meta,
@@ -55,12 +56,15 @@ export const About = () => {
             </table>
           </Col>
         </Row> */}
-        <Row className="sec_sp">
-          <Col lg="5">
+
+        {/* <Col lg="5">
             <h3 className="color_sec py-4">Skills</h3>
-          </Col>
-          <Col lg="7">
-            {skills.map((data, i) => {
+          </Col> */}
+
+
+
+
+        {/* {skills.map((data, i) => {
               return (
                 <div key={i}>
                   <h3 className="progress-title">{data.name}</h3>
@@ -76,10 +80,44 @@ export const About = () => {
                   </div>
                 </div>
               );
-            })}
+            })} */}
+        <Row className="sec_sp">
+          <Col lg="5">
+            <h3 className="color_sec py-4">Expertise</h3>
+          </Col>
+          <Col lg="7" className="d-flex align-items-center">
+            <div>
+              <div style={{ display: "flex", justifyContent: "center", gap: "40px", flexWrap: "wrap" }}>
+
+                <FaHtml5 color="#E34F26" fontSize={60} />
+                <FaCss3Alt color="#1572B6" fontSize={60} />
+                <FaJs color="#F7DF1E" fontSize={60} />
+                <FaReact color="#61DAFB" fontSize={60} />
+                <FaSass color="#CC6699" fontSize={60} />
+              </div>
+
+            </div>
           </Col>
         </Row>
         <Row className="sec_sp">
+          <Col lg="5">
+            <h3 className="color_sec py-4">Education</h3>
+          </Col>
+          <Col lg="7" className="d-flex align-items-center">
+            <div>
+              <h5>10th</h5>
+              <p>Wellhem's International School,Gujarat </p>
+              <p>87.55 percentile</p>
+              <hr></hr>
+              <h5>12th</h5>
+              <p>Mordern Defence Snr Secondary School,Rajathan </p>
+              <p>82.20 %</p>
+            </div>
+          </Col>
+        </Row>
+
+
+        {/* <Row className="sec_sp">
           <Col lang="5">
             <h3 className="color_sec py-4">services</h3>
           </Col>
@@ -93,7 +131,7 @@ export const About = () => {
               );
             })}
           </Col>
-        </Row>
+        </Row> */}
       </Container>
     </HelmetProvider>
   );
