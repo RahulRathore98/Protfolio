@@ -143,7 +143,7 @@ const dataportfolio = [{
 ];
 
 const contactConfig = {
-    YOUR_EMAIL: "rutikmaru8099@GMAIL.COM",
+    YOUR_EMAIL: "rutikmaru9@gmail.com",
     YOUR_FONE: "+91 9358926849",
     description: "Every great idea starts with a conversation. Whether it's web development, design, or just some tech talk — I'm all ears. Reach out and let’s turn your vision into something real.",
     // creat an emailjs.com account 
